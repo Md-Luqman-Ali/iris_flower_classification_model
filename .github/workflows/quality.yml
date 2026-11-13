@@ -2,7 +2,7 @@ name: Quality checks
 
 on:
   push:
-    branches: ["main", "release-c/**"]
+    branches: ["main", "release-c/**", "release-d/**"]
   pull_request:
     branches: ["main"]
 
